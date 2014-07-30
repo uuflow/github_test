@@ -34,7 +34,7 @@ import de.greenrobot.event.EventBus;
 public class AbstractEventBusTest extends TestCase {
     /** Activates long(er) running tests e.g. testing multi-threading more throughly.  */
     protected static final boolean LONG_TESTS = false;
-
+//我只是想加个注释...
     protected EventBus eventBus;
 
     protected final AtomicInteger eventCount = new AtomicInteger();
